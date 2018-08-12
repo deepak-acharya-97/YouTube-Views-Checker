@@ -6,9 +6,10 @@ from sys import *
 
 YouTubeLink = "https://www.youtube.com/watch?v=rZfEgxCcYRQ"
 outputCsvName = "youtubeviews.csv"
+chromeDriverPath = "E:\\MAJOR_PROJECT_DEEPAK_ACHARYA\\CODES\\selenium\\chromedriver.exe" # If you are having chromedriver.exe inside your current directory use ./chromedriver.exe
 count=0
 while True:
-	driver=webdriver.Chrome("E:\\MAJOR_PROJECT_DEEPAK_ACHARYA\\CODES\\selenium\\chromedriver.exe")
+	driver=webdriver.Chrome(chromeDriverPath)
 	driver.get(YouTubeLink)
 	sleep(10)
 

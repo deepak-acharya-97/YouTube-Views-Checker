@@ -9,4 +9,4 @@ Make sure that you have installed pip
 - Install selenium using pip 
 (```pip install selenium```)
 - [Install Chrome Driver](https://chromedriver.storage.googleapis.com/index.html?path=2.41/)
-- run the application
+- run the application (```python youtubeViewsChecker.py```)
